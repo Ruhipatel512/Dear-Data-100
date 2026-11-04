@@ -1,9 +1,16 @@
 void setup(){
-  size(400,500);
+  size(600,600);
+  background(255,255,255);
   noStroke();
-  background(255);
 }
 
 void draw(){
-  fill(255,0,0);
-  circle(200,250,50);}
+  fill(#80E869);
+  circle(100,100,50);
+  fill(#58984A);
+  circle(160,100,50);
+  fill(#0F4603);
+  circle(220,100,50);
+  fill(#96BF40);
+  circle(280,100,50);
+}
